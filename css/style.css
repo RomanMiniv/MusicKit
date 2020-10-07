@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: #fff;
+	background-image: url("../img/FTbg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.musicKit {
+	margin: 12% auto 0;
+	opacity: 0.9;
+}
+
+.musicKit ul {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.OST {
+	margin: 0 0.5%;
+	box-sizing: border-box;
+	padding: 0.5%;
+	border: 2px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	transition: all, 0.5s;
+}
+
+.OST kbd {
+	font-size: 30px;
+}
+
+.OST p {
+	color: brown;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.activeAudio {
+	border: 2px solid orange;
+	box-shadow: 0px 0px 10px orange;
+	transform: scale(1.1);
+}
